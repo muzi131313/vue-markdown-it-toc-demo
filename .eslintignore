@@ -1,0 +1,5 @@
+# output.js
+# doc: https://eslint.org/docs/user-guide/configuring#ignoring-files-and-directories
+output.js
+dist/*
+node_modules/*

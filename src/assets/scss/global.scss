@@ -1,0 +1,24 @@
+@import './pub/reset.scss';
+@import './pub/animate.scss';
+@import './pub/mixin.scss';
+@import './pub/variable.scss';
+@import './pub/media.scss';
+
+html, body {
+    margin: 0 auto;
+    // background: rgba(208, 208, 208, 0.7) !important;
+    // background: rgba(210, 210, 210, 0.7);
+    color: #000;
+    // doc: https://www.iviewui.com/components/font
+    font-family: "Helvetica Neue",
+                 "Helvetica",
+                 "PingFang SC",
+                 "Hiragino Sans GB",
+                 "Microsoft YaHei",
+                 "微软雅黑",
+                 "Arial",
+                 "sans-serif";
+    height: 100%;
+    width: 100%;
+    min-width: 1280px;
+}
