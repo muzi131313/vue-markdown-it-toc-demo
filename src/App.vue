@@ -14,7 +14,7 @@
 export default {
   name: 'App',
   created () {
-    this.init()
+    // this.init()
   },
   methods: {
     async init () {

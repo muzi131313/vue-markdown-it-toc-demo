@@ -192,7 +192,11 @@ export default {
 <style lang="scss">
 // TODO: offset需要动态设置
 // offset
-$offset: $sider-bar-top - $header-height;
+// $offset: $sider-bar-top - $header-height;
+$sliver: #ebedef;
+$black: #333;
+$active-color: rgb(25, 149, 249);
+
 .mark {
   padding-right: 180px;
   padding-bottom: 30px;
@@ -200,9 +204,11 @@ $offset: $sider-bar-top - $header-height;
 .table-of-contents {
   position: fixed;
   right: 0;
-  height: calc(100% - #{$header-height});
-  top: $header-height;
-  padding-top: $offset;
+  height: 100%;
+  top: 0;
+  // height: calc(100% - #{$header-height});
+  // top: $header-height;
+  // padding-top: $offset;
   @media (min-width: 768px) {
     right: calc((100% - 750px)/2);
   }
