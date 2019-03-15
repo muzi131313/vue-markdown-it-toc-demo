@@ -1,7 +1,7 @@
 // import http from '@/http'
 import axiosPro from 'axios-pro'
 import mappers from '@/http/mappers'
-import markdownItToc from '@/components/markdownItToc'
+import MarkdownItToc from '@/components/markdownItToc'
 
 export default Vue => {
   Vue.prototype.$BASE_URL = process.env.BASE_URL
@@ -22,5 +22,5 @@ export default Vue => {
       }
     }
   })
-  Vue.use(markdownItToc)
+  Vue.use(MarkdownItToc)
 }
