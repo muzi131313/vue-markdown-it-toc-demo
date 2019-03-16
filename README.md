@@ -1,8 +1,7 @@
 # vue-cli3-template
 
 ### TODO List
-- [×] router history not finished
-- [×] 待定
+- [×] set offset when the page has header need to fixed to the top position
 
 ## Project setup
 ```
