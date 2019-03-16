@@ -1,7 +1,9 @@
 <template>
   <div class="home">
     <markdown-it-toc class="markdown-it-wrap"
-      :content="content">
+      :content="content"
+      :offset="21"
+      :level="3">
     </markdown-it-toc>
   </div>
 </template>
