@@ -3,13 +3,13 @@ const path = require('path')
 
 module.exports = {
   // 部署应用的基本URL, 相当于webpack的output.publicPath
-  baseUrl: isProd ? '/' : '/',
+  baseUrl: isProd ? 'vue-markdown-it-toc-demo/' : '/',
 
   // 输出路径, 相当于webpack的output.path
   outputDir: 'dist',
 
   // 放置生成的静态资源 (js、css、img、fonts) 的 (相对于 outputDir 的) 目录
-  assetsDir: 'vue-markdown-it-toc-demo/static',
+  assetsDir: 'static',
 
   // webpack配置, chainWebpack可以替代此处
   configureWebpack: {
