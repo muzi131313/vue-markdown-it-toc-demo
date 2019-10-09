@@ -3,7 +3,7 @@ const path = require('path')
 
 module.exports = {
   // 部署应用的基本URL, 相当于webpack的output.publicPath
-  baseUrl: isProd ? '/' : '/',
+  baseUrl: isProd ? 'vue-markdown-it-toc-demo/' : '/',
 
   // 输出路径, 相当于webpack的output.path
   outputDir: 'dist',

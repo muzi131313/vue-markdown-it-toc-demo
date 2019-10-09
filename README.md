@@ -1,7 +1,6 @@
 # vue-cli3-template
 
-### TODO List
-- [×] set offset when the page has header need to fixed to the top position
+- [show online](https://muzi131313.github.io/vue-markdown-it-toc-demo/)
 
 ## Project setup
 ```
