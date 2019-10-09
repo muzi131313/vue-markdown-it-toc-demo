@@ -18,7 +18,7 @@ export default {
   },
   methods: {
     async init () {
-      const resp = await this.$api.queryOrg({
+      await this.$api.queryOrg({
         jsonConditions: {
           op: 'or',
           elements: [
@@ -35,7 +35,7 @@ export default {
         // }
       })
       // eslint-disable-next-line
-      console.log('resp: ', resp)
+      // console.log('resp: ', resp)
     }
   }
 }
