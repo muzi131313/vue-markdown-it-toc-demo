@@ -3,7 +3,7 @@ const path = require('path')
 
 module.exports = {
   // 部署应用的基本URL, 相当于webpack的output.publicPath
-  baseUrl: isProd ? 'vue-markdown-it-toc-demo/' : '/',
+  publicPath: isProd ? 'vue-markdown-it-toc-demo/' : '/',
 
   // 输出路径, 相当于webpack的output.path
   outputDir: 'dist',
@@ -42,7 +42,7 @@ module.exports = {
       sass: {
         // @/ 是 src/ 的别名
         // 所以这里假设你有 `src/variables.scss` 这个文件
-        data: `@import "@/assets/scss/pub/variable.scss";`
+        prependData: `@import "@/assets/scss/pub/variable.scss";`
       }
     }
   },
