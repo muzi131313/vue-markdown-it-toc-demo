@@ -12,32 +12,7 @@
 <script>
 // import axios from 'axios'
 export default {
-  name: 'App',
-  created () {
-    // this.init()
-  },
-  methods: {
-    async init () {
-      // await this.$api.queryOrg({
-      //   jsonConditions: {
-      //     op: 'or',
-      //     elements: [
-      //       {
-      //         param: 'name',
-      //         op: 'contains',
-      //         values: '北京'
-      //       }
-      //     ]
-      //   }
-      // }, {
-      //   // headers: {
-      //   //   'Content-Type': 'application/x-www-form-urlencoded'
-      //   // }
-      // })
-      // eslint-disable-next-line
-      // console.log('resp: ', resp)
-    }
-  }
+  name: 'App'
 }
 </script>
 
